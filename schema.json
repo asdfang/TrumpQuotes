@@ -1,0 +1,42 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "close trump quotes",
+          "stop this app",
+          "i'm done",
+          "finished",
+          "no more",
+          "exit",
+          "no more quotes"
+        ]
+      },
+      {
+        "name": "GetQuoteIntent",
+        "samples": [
+          "what's a quote by donald trump",
+          "what's another quote",
+          "what's a dumb quote by trump",
+          "give me a quote from donald trump",
+          "what did trump say ",
+          "what has trump said",
+          "give me a tweet from trump",
+          "give me a trump quote",
+          "tell me a quote"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "trump quotes"
+  }
+}
